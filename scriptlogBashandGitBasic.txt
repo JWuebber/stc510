@@ -1754,3 +1754,1409 @@ At line:1 char:1
 PS C:\Users\Star Cloud\stc510>
 (base) $env:LANG = 'en_US.UTF-8'
 PS C:\Users\Star Cloud\stc510>
+(base) nano educationFILL.txt
+
+PS C:\Users\Star Cloud\stc510>
+(base) Get-Content -Raw educationFILL.txt
+JOACHIM WUEBBER - BASH AND GIT BASICSe d u c a t i o n . t x t   e d u c a t i o n 0 1 2 9 1 0 . t x t   e d u c a t i o n 1 . t x t   e d u c a t i o n 1 . t x t   e d u c a t i o n . g r o u p . . t x t   e d u c a t i o n _ t e c h . t x t   e d u c a t i o n . g r o u p . . t x t   e d u c a t i o n . g r o u p . . t x t   e d u c a t i o n . g r o . t x t   e d u c a t i o n _ t e c h . t x t   e d u c a t i o n 3 . t x t   e d u c a t i o n 3 . t x t   e d u c a t i o n _ t e c h . t x t   e d u c a t i o n . g r o u p . . t x t   e d u c a t i o n . t x t   e d u c a t i o n r e a l t y 2 0 0 8 y e b n y m c . t x t   e d u c a t i o n . g r o u p . . t x t   
+PS C:\Users\Star Cloud\stc510>
+(base) file educationFILL.txt
+
+PS C:\Users\Star Cloud\stc510>
+(base) conda install hexdump
+
+PS C:\Users\Star Cloud\stc510>
+(base) hexdump -C educationFILL.txt
+hexdump : The term 'hexdump' is not recognized as the name of a cmdlet, function, script file, or operable program. 
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ hexdump -C educationFILL.txt
++ ~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (hexdump:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+hexdump : The term 'hexdump' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ hexdump -C educationFILL.txt
++ ~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (hexdump:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\Star Cloud\stc510>
+(base) #hmm
+PS C:\Users\Star Cloud\stc510>
+(base) Get-Content -Encoding Byte -ReadCount 16 -TotalCount 256 -Path educationFILL.txt | Format-Hex
+Format-Hex : Cannot convert input of type System.Object[] to hexadecimal. To view the hexadecimal formatting of its 
+string representation, pipe it to the Out-String cmdlet before piping it to Format-Hex.
+At line:1 char:84
++ ... te -ReadCount 16 -TotalCount 256 -Path educationFILL.txt | Format-Hex
++                                                                ~~~~~~~~~~
+    + CategoryInfo          : ParserError: (:) [Write-Error], WriteErrorException
+    + FullyQualifiedErrorId : FormatHexFailureTypeNotSupported,Format-Hex
+Format-Hex : Cannot convert input of type System.Object[] to hexadecimal. To view the hexadecimal formatting of its string representation, pipe it to the Out-String cmdlet before piping it to Format-Hex.
+At line:1 char:84
++ ... te -ReadCount 16 -TotalCount 256 -Path educationFILL.txt | Format-Hex
++                                                                ~~~~~~~~~~
+    + CategoryInfo          : ParserError: (:) [Write-Error], WriteErrorException
+    + FullyQualifiedErrorId : FormatHexFailureTypeNotSupported,Format-Hex
+
+Format-Hex : Cannot convert input of type System.Object[] to hexadecimal. To view the hexadecimal formatting of its 
+string representation, pipe it to the Out-String cmdlet before piping it to Format-Hex.
+At line:1 char:84
++ ... te -ReadCount 16 -TotalCount 256 -Path educationFILL.txt | Format-Hex
++                                                                ~~~~~~~~~~
+    + CategoryInfo          : ParserError: (:) [Write-Error], WriteErrorException
+    + FullyQualifiedErrorId : FormatHexFailureTypeNotSupported,Format-Hex
+Format-Hex : Cannot convert input of type System.Object[] to hexadecimal. To view the hexadecimal formatting of its string representation, pipe it to the Out-String cmdlet before piping it to Format-Hex.
+At line:1 char:84
++ ... te -ReadCount 16 -TotalCount 256 -Path educationFILL.txt | Format-Hex
++                                                                ~~~~~~~~~~
+    + CategoryInfo          : ParserError: (:) [Write-Error], WriteErrorException
+    + FullyQualifiedErrorId : FormatHexFailureTypeNotSupported,Format-Hex
+
+Format-Hex : Cannot convert input of type System.Object[] to hexadecimal. To view the hexadecimal formatting of its 
+string representation, pipe it to the Out-String cmdlet before piping it to Format-Hex.
+At line:1 char:84
++ ... te -ReadCount 16 -TotalCount 256 -Path educationFILL.txt | Format-Hex
++                                                                ~~~~~~~~~~
+    + CategoryInfo          : ParserError: (:) [Write-Error], WriteErrorException
+    + FullyQualifiedErrorId : FormatHexFailureTypeNotSupported,Format-Hex
+Format-Hex : Cannot convert input of type System.Object[] to hexadecimal. To view the hexadecimal formatting of its string representation, pipe it to the Out-String cmdlet before piping it to Format-Hex.
+At line:1 char:84
++ ... te -ReadCount 16 -TotalCount 256 -Path educationFILL.txt | Format-Hex
++                                                                ~~~~~~~~~~
+    + CategoryInfo          : ParserError: (:) [Write-Error], WriteErrorException
+    + FullyQualifiedErrorId : FormatHexFailureTypeNotSupported,Format-Hex
+
+Format-Hex : Cannot convert input of type System.Object[] to hexadecimal. To view the hexadecimal formatting of its 
+string representation, pipe it to the Out-String cmdlet before piping it to Format-Hex.
+At line:1 char:84
++ ... te -ReadCount 16 -TotalCount 256 -Path educationFILL.txt | Format-Hex
++                                                                ~~~~~~~~~~
+    + CategoryInfo          : ParserError: (:) [Write-Error], WriteErrorException
+    + FullyQualifiedErrorId : FormatHexFailureTypeNotSupported,Format-Hex
+Format-Hex : Cannot convert input of type System.Object[] to hexadecimal. To view the hexadecimal formatting of its string representation, pipe it to the Out-String cmdlet before piping it to Format-Hex.
+At line:1 char:84
++ ... te -ReadCount 16 -TotalCount 256 -Path educationFILL.txt | Format-Hex
++                                                                ~~~~~~~~~~
+    + CategoryInfo          : ParserError: (:) [Write-Error], WriteErrorException
+    + FullyQualifiedErrorId : FormatHexFailureTypeNotSupported,Format-Hex
+
+Format-Hex : Cannot convert input of type System.Object[] to hexadecimal. To view the hexadecimal formatting of its 
+string representation, pipe it to the Out-String cmdlet before piping it to Format-Hex.
+At line:1 char:84
++ ... te -ReadCount 16 -TotalCount 256 -Path educationFILL.txt | Format-Hex
++                                                                ~~~~~~~~~~
+    + CategoryInfo          : ParserError: (:) [Write-Error], WriteErrorException
+    + FullyQualifiedErrorId : FormatHexFailureTypeNotSupported,Format-Hex
+Format-Hex : Cannot convert input of type System.Object[] to hexadecimal. To view the hexadecimal formatting of its string representation, pipe it to the Out-String cmdlet before piping it to Format-Hex.
+At line:1 char:84
++ ... te -ReadCount 16 -TotalCount 256 -Path educationFILL.txt | Format-Hex
++                                                                ~~~~~~~~~~
+    + CategoryInfo          : ParserError: (:) [Write-Error], WriteErrorException
+    + FullyQualifiedErrorId : FormatHexFailureTypeNotSupported,Format-Hex
+
+Format-Hex : Cannot convert input of type System.Object[] to hexadecimal. To view the hexadecimal formatting of its 
+string representation, pipe it to the Out-String cmdlet before piping it to Format-Hex.
+At line:1 char:84
++ ... te -ReadCount 16 -TotalCount 256 -Path educationFILL.txt | Format-Hex
++                                                                ~~~~~~~~~~
+    + CategoryInfo          : ParserError: (:) [Write-Error], WriteErrorException
+    + FullyQualifiedErrorId : FormatHexFailureTypeNotSupported,Format-Hex
+Format-Hex : Cannot convert input of type System.Object[] to hexadecimal. To view the hexadecimal formatting of its string representation, pipe it to the Out-String cmdlet before piping it to Format-Hex.
+At line:1 char:84
++ ... te -ReadCount 16 -TotalCount 256 -Path educationFILL.txt | Format-Hex
++                                                                ~~~~~~~~~~
+    + CategoryInfo          : ParserError: (:) [Write-Error], WriteErrorException
+    + FullyQualifiedErrorId : FormatHexFailureTypeNotSupported,Format-Hex
+
+Format-Hex : Cannot convert input of type System.Object[] to hexadecimal. To view the hexadecimal formatting of its 
+string representation, pipe it to the Out-String cmdlet before piping it to Format-Hex.
+At line:1 char:84
++ ... te -ReadCount 16 -TotalCount 256 -Path educationFILL.txt | Format-Hex
++                                                                ~~~~~~~~~~
+    + CategoryInfo          : ParserError: (:) [Write-Error], WriteErrorException
+    + FullyQualifiedErrorId : FormatHexFailureTypeNotSupported,Format-Hex
+Format-Hex : Cannot convert input of type System.Object[] to hexadecimal. To view the hexadecimal formatting of its string representation, pipe it to the Out-String cmdlet before piping it to Format-Hex.
+At line:1 char:84
++ ... te -ReadCount 16 -TotalCount 256 -Path educationFILL.txt | Format-Hex
++                                                                ~~~~~~~~~~
+    + CategoryInfo          : ParserError: (:) [Write-Error], WriteErrorException
+    + FullyQualifiedErrorId : FormatHexFailureTypeNotSupported,Format-Hex
+
+Format-Hex : Cannot convert input of type System.Object[] to hexadecimal. To view the hexadecimal formatting of its 
+string representation, pipe it to the Out-String cmdlet before piping it to Format-Hex.
+At line:1 char:84
++ ... te -ReadCount 16 -TotalCount 256 -Path educationFILL.txt | Format-Hex
++                                                                ~~~~~~~~~~
+    + CategoryInfo          : ParserError: (:) [Write-Error], WriteErrorException
+    + FullyQualifiedErrorId : FormatHexFailureTypeNotSupported,Format-Hex
+Format-Hex : Cannot convert input of type System.Object[] to hexadecimal. To view the hexadecimal formatting of its string representation, pipe it to the Out-String cmdlet before piping it to Format-Hex.
+At line:1 char:84
++ ... te -ReadCount 16 -TotalCount 256 -Path educationFILL.txt | Format-Hex
++                                                                ~~~~~~~~~~
+    + CategoryInfo          : ParserError: (:) [Write-Error], WriteErrorException
+    + FullyQualifiedErrorId : FormatHexFailureTypeNotSupported,Format-Hex
+
+Format-Hex : Cannot convert input of type System.Object[] to hexadecimal. To view the hexadecimal formatting of its 
+string representation, pipe it to the Out-String cmdlet before piping it to Format-Hex.
+At line:1 char:84
++ ... te -ReadCount 16 -TotalCount 256 -Path educationFILL.txt | Format-Hex
++                                                                ~~~~~~~~~~
+    + CategoryInfo          : ParserError: (:) [Write-Error], WriteErrorException
+    + FullyQualifiedErrorId : FormatHexFailureTypeNotSupported,Format-Hex
+Format-Hex : Cannot convert input of type System.Object[] to hexadecimal. To view the hexadecimal formatting of its string representation, pipe it to the Out-String cmdlet before piping it to Format-Hex.
+At line:1 char:84
++ ... te -ReadCount 16 -TotalCount 256 -Path educationFILL.txt | Format-Hex
++                                                                ~~~~~~~~~~
+    + CategoryInfo          : ParserError: (:) [Write-Error], WriteErrorException
+    + FullyQualifiedErrorId : FormatHexFailureTypeNotSupported,Format-Hex
+
+Format-Hex : Cannot convert input of type System.Object[] to hexadecimal. To view the hexadecimal formatting of its 
+string representation, pipe it to the Out-String cmdlet before piping it to Format-Hex.
+At line:1 char:84
++ ... te -ReadCount 16 -TotalCount 256 -Path educationFILL.txt | Format-Hex
++                                                                ~~~~~~~~~~
+    + CategoryInfo          : ParserError: (:) [Write-Error], WriteErrorException
+    + FullyQualifiedErrorId : FormatHexFailureTypeNotSupported,Format-Hex
+Format-Hex : Cannot convert input of type System.Object[] to hexadecimal. To view the hexadecimal formatting of its string representation, pipe it to the Out-String cmdlet before piping it to Format-Hex.
+At line:1 char:84
++ ... te -ReadCount 16 -TotalCount 256 -Path educationFILL.txt | Format-Hex
++                                                                ~~~~~~~~~~
+    + CategoryInfo          : ParserError: (:) [Write-Error], WriteErrorException
+    + FullyQualifiedErrorId : FormatHexFailureTypeNotSupported,Format-Hex
+
+Format-Hex : Cannot convert input of type System.Object[] to hexadecimal. To view the hexadecimal formatting of its 
+string representation, pipe it to the Out-String cmdlet before piping it to Format-Hex.
+At line:1 char:84
++ ... te -ReadCount 16 -TotalCount 256 -Path educationFILL.txt | Format-Hex
++                                                                ~~~~~~~~~~
+    + CategoryInfo          : ParserError: (:) [Write-Error], WriteErrorException
+    + FullyQualifiedErrorId : FormatHexFailureTypeNotSupported,Format-Hex
+Format-Hex : Cannot convert input of type System.Object[] to hexadecimal. To view the hexadecimal formatting of its string representation, pipe it to the Out-String cmdlet before piping it to Format-Hex.
+At line:1 char:84
++ ... te -ReadCount 16 -TotalCount 256 -Path educationFILL.txt | Format-Hex
++                                                                ~~~~~~~~~~
+    + CategoryInfo          : ParserError: (:) [Write-Error], WriteErrorException
+    + FullyQualifiedErrorId : FormatHexFailureTypeNotSupported,Format-Hex
+
+Format-Hex : Cannot convert input of type System.Object[] to hexadecimal. To view the hexadecimal formatting of its 
+string representation, pipe it to the Out-String cmdlet before piping it to Format-Hex.
+At line:1 char:84
++ ... te -ReadCount 16 -TotalCount 256 -Path educationFILL.txt | Format-Hex
++                                                                ~~~~~~~~~~
+    + CategoryInfo          : ParserError: (:) [Write-Error], WriteErrorException
+    + FullyQualifiedErrorId : FormatHexFailureTypeNotSupported,Format-Hex
+Format-Hex : Cannot convert input of type System.Object[] to hexadecimal. To view the hexadecimal formatting of its string representation, pipe it to the Out-String cmdlet before piping it to Format-Hex.
+At line:1 char:84
++ ... te -ReadCount 16 -TotalCount 256 -Path educationFILL.txt | Format-Hex
++                                                                ~~~~~~~~~~
+    + CategoryInfo          : ParserError: (:) [Write-Error], WriteErrorException
+    + FullyQualifiedErrorId : FormatHexFailureTypeNotSupported,Format-Hex
+
+Format-Hex : Cannot convert input of type System.Object[] to hexadecimal. To view the hexadecimal formatting of its 
+string representation, pipe it to the Out-String cmdlet before piping it to Format-Hex.
+At line:1 char:84
++ ... te -ReadCount 16 -TotalCount 256 -Path educationFILL.txt | Format-Hex
++                                                                ~~~~~~~~~~
+    + CategoryInfo          : ParserError: (:) [Write-Error], WriteErrorException
+    + FullyQualifiedErrorId : FormatHexFailureTypeNotSupported,Format-Hex
+Format-Hex : Cannot convert input of type System.Object[] to hexadecimal. To view the hexadecimal formatting of its string representation, pipe it to the Out-String cmdlet before piping it to Format-Hex.
+At line:1 char:84
++ ... te -ReadCount 16 -TotalCount 256 -Path educationFILL.txt | Format-Hex
++                                                                ~~~~~~~~~~
+    + CategoryInfo          : ParserError: (:) [Write-Error], WriteErrorException
+    + FullyQualifiedErrorId : FormatHexFailureTypeNotSupported,Format-Hex
+
+Format-Hex : Cannot convert input of type System.Object[] to hexadecimal. To view the hexadecimal formatting of its 
+string representation, pipe it to the Out-String cmdlet before piping it to Format-Hex.
+At line:1 char:84
++ ... te -ReadCount 16 -TotalCount 256 -Path educationFILL.txt | Format-Hex
++                                                                ~~~~~~~~~~
+    + CategoryInfo          : ParserError: (:) [Write-Error], WriteErrorException
+    + FullyQualifiedErrorId : FormatHexFailureTypeNotSupported,Format-Hex
+Format-Hex : Cannot convert input of type System.Object[] to hexadecimal. To view the hexadecimal formatting of its string representation, pipe it to the Out-String cmdlet before piping it to Format-Hex.
+At line:1 char:84
++ ... te -ReadCount 16 -TotalCount 256 -Path educationFILL.txt | Format-Hex
++                                                                ~~~~~~~~~~
+    + CategoryInfo          : ParserError: (:) [Write-Error], WriteErrorException
+    + FullyQualifiedErrorId : FormatHexFailureTypeNotSupported,Format-Hex
+
+Format-Hex : Cannot convert input of type System.Object[] to hexadecimal. To view the hexadecimal formatting of its 
+string representation, pipe it to the Out-String cmdlet before piping it to Format-Hex.
+At line:1 char:84
++ ... te -ReadCount 16 -TotalCount 256 -Path educationFILL.txt | Format-Hex
++                                                                ~~~~~~~~~~
+    + CategoryInfo          : ParserError: (:) [Write-Error], WriteErrorException
+    + FullyQualifiedErrorId : FormatHexFailureTypeNotSupported,Format-Hex
+Format-Hex : Cannot convert input of type System.Object[] to hexadecimal. To view the hexadecimal formatting of its string representation, pipe it to the Out-String cmdlet before piping it to Format-Hex.
+At line:1 char:84
++ ... te -ReadCount 16 -TotalCount 256 -Path educationFILL.txt | Format-Hex
++                                                                ~~~~~~~~~~
+    + CategoryInfo          : ParserError: (:) [Write-Error], WriteErrorException
+    + FullyQualifiedErrorId : FormatHexFailureTypeNotSupported,Format-Hex
+
+Format-Hex : Cannot convert input of type System.Object[] to hexadecimal. To view the hexadecimal formatting of its 
+string representation, pipe it to the Out-String cmdlet before piping it to Format-Hex.
+At line:1 char:84
++ ... te -ReadCount 16 -TotalCount 256 -Path educationFILL.txt | Format-Hex
++                                                                ~~~~~~~~~~
+    + CategoryInfo          : ParserError: (:) [Write-Error], WriteErrorException
+    + FullyQualifiedErrorId : FormatHexFailureTypeNotSupported,Format-Hex
+Format-Hex : Cannot convert input of type System.Object[] to hexadecimal. To view the hexadecimal formatting of its string representation, pipe it to the Out-String cmdlet before piping it to Format-Hex.
+At line:1 char:84
++ ... te -ReadCount 16 -TotalCount 256 -Path educationFILL.txt | Format-Hex
++                                                                ~~~~~~~~~~
+    + CategoryInfo          : ParserError: (:) [Write-Error], WriteErrorException
+    + FullyQualifiedErrorId : FormatHexFailureTypeNotSupported,Format-Hex
+
+PS C:\Users\Star Cloud\stc510>
+(base) #definitely not that
+PS C:\Users\Star Cloud\stc510>
+(base) Get-Content -Encoding Byte -ReadCount 16 -Path educationFILL.txt | Format-Hex
+
+Format-Hex : Cannot convert input of type System.Object[] to hexadecimal. To view the hexadecimal formatting of its 
+string representation, pipe it to the Out-String cmdlet before piping it to Format-Hex.
+At line:1 char:68
++ ... ent -Encoding Byte -ReadCount 16 -Path educationFILL.txt | Format-Hex
++                                                                ~~~~~~~~~~
+    + CategoryInfo          : ParserError: (:) [Write-Error], WriteErrorException
+    + FullyQualifiedErrorId : FormatHexFailureTypeNotSupported,Format-Hex
+Format-Hex : Cannot convert input of type System.Object[] to hexadecimal. To view the hexadecimal formatting of its string representation, pipe it to the Out-String cmdlet before piping it to Format-Hex.
+At line:1 char:68
++ ... ent -Encoding Byte -ReadCount 16 -Path educationFILL.txt | Format-Hex
++                                                                ~~~~~~~~~~
+    + CategoryInfo          : ParserError: (:) [Write-Error], WriteErrorException
+    + FullyQualifiedErrorId : FormatHexFailureTypeNotSupported,Format-Hex
+
+Format-Hex : Cannot convert input of type System.Object[] to hexadecimal. To view the hexadecimal formatting of its 
+string representation, pipe it to the Out-String cmdlet before piping it to Format-Hex.
+At line:1 char:68
++ ... ent -Encoding Byte -ReadCount 16 -Path educationFILL.txt | Format-Hex
++                                                                ~~~~~~~~~~
+    + CategoryInfo          : ParserError: (:) [Write-Error], WriteErrorException
+    + FullyQualifiedErrorId : FormatHexFailureTypeNotSupported,Format-Hex
+Format-Hex : Cannot convert input of type System.Object[] to hexadecimal. To view the hexadecimal formatting of its string representation, pipe it to the Out-String cmdlet before piping it to Format-Hex.
+At line:1 char:68
++ ... ent -Encoding Byte -ReadCount 16 -Path educationFILL.txt | Format-Hex
++                                                                ~~~~~~~~~~
+    + CategoryInfo          : ParserError: (:) [Write-Error], WriteErrorException
+    + FullyQualifiedErrorId : FormatHexFailureTypeNotSupported,Format-Hex
+
+Format-Hex : Cannot convert input of type System.Object[] to hexadecimal. To view the hexadecimal formatting of its 
+string representation, pipe it to the Out-String cmdlet before piping it to Format-Hex.
+At line:1 char:68
++ ... ent -Encoding Byte -ReadCount 16 -Path educationFILL.txt | Format-Hex
++                                                                ~~~~~~~~~~
+    + CategoryInfo          : ParserError: (:) [Write-Error], WriteErrorException
+    + FullyQualifiedErrorId : FormatHexFailureTypeNotSupported,Format-Hex
+Format-Hex : Cannot convert input of type System.Object[] to hexadecimal. To view the hexadecimal formatting of its string representation, pipe it to the Out-String cmdlet before piping it to Format-Hex.
+At line:1 char:68
++ ... ent -Encoding Byte -ReadCount 16 -Path educationFILL.txt | Format-Hex
++                                                                ~~~~~~~~~~
+    + CategoryInfo          : ParserError: (:) [Write-Error], WriteErrorException
+    + FullyQualifiedErrorId : FormatHexFailureTypeNotSupported,Format-Hex
+
+Format-Hex : Cannot convert input of type System.Object[] to hexadecimal. To view the hexadecimal formatting of its 
+string representation, pipe it to the Out-String cmdlet before piping it to Format-Hex.
+At line:1 char:68
++ ... ent -Encoding Byte -ReadCount 16 -Path educationFILL.txt | Format-Hex
++                                                                ~~~~~~~~~~
+    + CategoryInfo          : ParserError: (:) [Write-Error], WriteErrorException
+    + FullyQualifiedErrorId : FormatHexFailureTypeNotSupported,Format-Hex
+Format-Hex : Cannot convert input of type System.Object[] to hexadecimal. To view the hexadecimal formatting of its string representation, pipe it to the Out-String cmdlet before piping it to Format-Hex.
+At line:1 char:68
++ ... ent -Encoding Byte -ReadCount 16 -Path educationFILL.txt | Format-Hex
++                                                                ~~~~~~~~~~
+    + CategoryInfo          : ParserError: (:) [Write-Error], WriteErrorException
+    + FullyQualifiedErrorId : FormatHexFailureTypeNotSupported,Format-Hex
+
+Format-Hex : Cannot convert input of type System.Object[] to hexadecimal. To view the hexadecimal formatting of its 
+string representation, pipe it to the Out-String cmdlet before piping it to Format-Hex.
+At line:1 char:68
++ ... ent -Encoding Byte -ReadCount 16 -Path educationFILL.txt | Format-Hex
++                                                                ~~~~~~~~~~
+    + CategoryInfo          : ParserError: (:) [Write-Error], WriteErrorException
+    + FullyQualifiedErrorId : FormatHexFailureTypeNotSupported,Format-Hex
+Format-Hex : Cannot convert input of type System.Object[] to hexadecimal. To view the hexadecimal formatting of its string representation, pipe it to the Out-String cmdlet before piping it to Format-Hex.
+At line:1 char:68
++ ... ent -Encoding Byte -ReadCount 16 -Path educationFILL.txt | Format-Hex
++                                                                ~~~~~~~~~~
+    + CategoryInfo          : ParserError: (:) [Write-Error], WriteErrorException
+    + FullyQualifiedErrorId : FormatHexFailureTypeNotSupported,Format-Hex
+
+Format-Hex : Cannot convert input of type System.Object[] to hexadecimal. To view the hexadecimal formatting of its 
+string representation, pipe it to the Out-String cmdlet before piping it to Format-Hex.
+At line:1 char:68
++ ... ent -Encoding Byte -ReadCount 16 -Path educationFILL.txt | Format-Hex
++                                                                ~~~~~~~~~~
+    + CategoryInfo          : ParserError: (:) [Write-Error], WriteErrorException
+    + FullyQualifiedErrorId : FormatHexFailureTypeNotSupported,Format-Hex
+Format-Hex : Cannot convert input of type System.Object[] to hexadecimal. To view the hexadecimal formatting of its string representation, pipe it to the Out-String cmdlet before piping it to Format-Hex.
+At line:1 char:68
++ ... ent -Encoding Byte -ReadCount 16 -Path educationFILL.txt | Format-Hex
++                                                                ~~~~~~~~~~
+    + CategoryInfo          : ParserError: (:) [Write-Error], WriteErrorException
+    + FullyQualifiedErrorId : FormatHexFailureTypeNotSupported,Format-Hex
+
+Format-Hex : Cannot convert input of type System.Object[] to hexadecimal. To view the hexadecimal formatting of its 
+string representation, pipe it to the Out-String cmdlet before piping it to Format-Hex.
+At line:1 char:68
++ ... ent -Encoding Byte -ReadCount 16 -Path educationFILL.txt | Format-Hex
++                                                                ~~~~~~~~~~
+    + CategoryInfo          : ParserError: (:) [Write-Error], WriteErrorException
+    + FullyQualifiedErrorId : FormatHexFailureTypeNotSupported,Format-Hex
+Format-Hex : Cannot convert input of type System.Object[] to hexadecimal. To view the hexadecimal formatting of its string representation, pipe it to the Out-String cmdlet before piping it to Format-Hex.
+At line:1 char:68
++ ... ent -Encoding Byte -ReadCount 16 -Path educationFILL.txt | Format-Hex
++                                                                ~~~~~~~~~~
+    + CategoryInfo          : ParserError: (:) [Write-Error], WriteErrorException
+    + FullyQualifiedErrorId : FormatHexFailureTypeNotSupported,Format-Hex
+
+Format-Hex : Cannot convert input of type System.Object[] to hexadecimal. To view the hexadecimal formatting of its 
+string representation, pipe it to the Out-String cmdlet before piping it to Format-Hex.
+At line:1 char:68
++ ... ent -Encoding Byte -ReadCount 16 -Path educationFILL.txt | Format-Hex
++                                                                ~~~~~~~~~~
+    + CategoryInfo          : ParserError: (:) [Write-Error], WriteErrorException
+    + FullyQualifiedErrorId : FormatHexFailureTypeNotSupported,Format-Hex
+Format-Hex : Cannot convert input of type System.Object[] to hexadecimal. To view the hexadecimal formatting of its string representation, pipe it to the Out-String cmdlet before piping it to Format-Hex.
+At line:1 char:68
++ ... ent -Encoding Byte -ReadCount 16 -Path educationFILL.txt | Format-Hex
++                                                                ~~~~~~~~~~
+    + CategoryInfo          : ParserError: (:) [Write-Error], WriteErrorException
+    + FullyQualifiedErrorId : FormatHexFailureTypeNotSupported,Format-Hex
+
+Format-Hex : Cannot convert input of type System.Object[] to hexadecimal. To view the hexadecimal formatting of its 
+string representation, pipe it to the Out-String cmdlet before piping it to Format-Hex.
+At line:1 char:68
++ ... ent -Encoding Byte -ReadCount 16 -Path educationFILL.txt | Format-Hex
++                                                                ~~~~~~~~~~
+    + CategoryInfo          : ParserError: (:) [Write-Error], WriteErrorException
+    + FullyQualifiedErrorId : FormatHexFailureTypeNotSupported,Format-Hex
+Format-Hex : Cannot convert input of type System.Object[] to hexadecimal. To view the hexadecimal formatting of its string representation, pipe it to the Out-String cmdlet before piping it to Format-Hex.
+At line:1 char:68
++ ... ent -Encoding Byte -ReadCount 16 -Path educationFILL.txt | Format-Hex
++                                                                ~~~~~~~~~~
+    + CategoryInfo          : ParserError: (:) [Write-Error], WriteErrorException
+    + FullyQualifiedErrorId : FormatHexFailureTypeNotSupported,Format-Hex
+
+Format-Hex : Cannot convert input of type System.Object[] to hexadecimal. To view the hexadecimal formatting of its 
+string representation, pipe it to the Out-String cmdlet before piping it to Format-Hex.
+At line:1 char:68
++ ... ent -Encoding Byte -ReadCount 16 -Path educationFILL.txt | Format-Hex
++                                                                ~~~~~~~~~~
+    + CategoryInfo          : ParserError: (:) [Write-Error], WriteErrorException
+    + FullyQualifiedErrorId : FormatHexFailureTypeNotSupported,Format-Hex
+Format-Hex : Cannot convert input of type System.Object[] to hexadecimal. To view the hexadecimal formatting of its string representation, pipe it to the Out-String cmdlet before piping it to Format-Hex.
+At line:1 char:68
++ ... ent -Encoding Byte -ReadCount 16 -Path educationFILL.txt | Format-Hex
++                                                                ~~~~~~~~~~
+    + CategoryInfo          : ParserError: (:) [Write-Error], WriteErrorException
+    + FullyQualifiedErrorId : FormatHexFailureTypeNotSupported,Format-Hex
+
+Format-Hex : Cannot convert input of type System.Object[] to hexadecimal. To view the hexadecimal formatting of its 
+string representation, pipe it to the Out-String cmdlet before piping it to Format-Hex.
+At line:1 char:68
++ ... ent -Encoding Byte -ReadCount 16 -Path educationFILL.txt | Format-Hex
++                                                                ~~~~~~~~~~
+    + CategoryInfo          : ParserError: (:) [Write-Error], WriteErrorException
+    + FullyQualifiedErrorId : FormatHexFailureTypeNotSupported,Format-Hex
+Format-Hex : Cannot convert input of type System.Object[] to hexadecimal. To view the hexadecimal formatting of its string representation, pipe it to the Out-String cmdlet before piping it to Format-Hex.
+At line:1 char:68
++ ... ent -Encoding Byte -ReadCount 16 -Path educationFILL.txt | Format-Hex
++                                                                ~~~~~~~~~~
+    + CategoryInfo          : ParserError: (:) [Write-Error], WriteErrorException
+    + FullyQualifiedErrorId : FormatHexFailureTypeNotSupported,Format-Hex
+
+Format-Hex : Cannot convert input of type System.Object[] to hexadecimal. To view the hexadecimal formatting of its 
+string representation, pipe it to the Out-String cmdlet before piping it to Format-Hex.
+At line:1 char:68
++ ... ent -Encoding Byte -ReadCount 16 -Path educationFILL.txt | Format-Hex
++                                                                ~~~~~~~~~~
+    + CategoryInfo          : ParserError: (:) [Write-Error], WriteErrorException
+    + FullyQualifiedErrorId : FormatHexFailureTypeNotSupported,Format-Hex
+Format-Hex : Cannot convert input of type System.Object[] to hexadecimal. To view the hexadecimal formatting of its string representation, pipe it to the Out-String cmdlet before piping it to Format-Hex.
+At line:1 char:68
++ ... ent -Encoding Byte -ReadCount 16 -Path educationFILL.txt | Format-Hex
++                                                                ~~~~~~~~~~
+    + CategoryInfo          : ParserError: (:) [Write-Error], WriteErrorException
+    + FullyQualifiedErrorId : FormatHexFailureTypeNotSupported,Format-Hex
+
+Format-Hex : Cannot convert input of type System.Object[] to hexadecimal. To view the hexadecimal formatting of its 
+string representation, pipe it to the Out-String cmdlet before piping it to Format-Hex.
+At line:1 char:68
++ ... ent -Encoding Byte -ReadCount 16 -Path educationFILL.txt | Format-Hex
++                                                                ~~~~~~~~~~
+    + CategoryInfo          : ParserError: (:) [Write-Error], WriteErrorException
+    + FullyQualifiedErrorId : FormatHexFailureTypeNotSupported,Format-Hex
+Format-Hex : Cannot convert input of type System.Object[] to hexadecimal. To view the hexadecimal formatting of its string representation, pipe it to the Out-String cmdlet before piping it to Format-Hex.
+At line:1 char:68
++ ... ent -Encoding Byte -ReadCount 16 -Path educationFILL.txt | Format-Hex
++                                                                ~~~~~~~~~~
+    + CategoryInfo          : ParserError: (:) [Write-Error], WriteErrorException
+    + FullyQualifiedErrorId : FormatHexFailureTypeNotSupported,Format-Hex
+
+Format-Hex : Cannot convert input of type System.Object[] to hexadecimal. To view the hexadecimal formatting of its 
+string representation, pipe it to the Out-String cmdlet before piping it to Format-Hex.
+At line:1 char:68
++ ... ent -Encoding Byte -ReadCount 16 -Path educationFILL.txt | Format-Hex
++                                                                ~~~~~~~~~~
+    + CategoryInfo          : ParserError: (:) [Write-Error], WriteErrorException
+    + FullyQualifiedErrorId : FormatHexFailureTypeNotSupported,Format-Hex
+Format-Hex : Cannot convert input of type System.Object[] to hexadecimal. To view the hexadecimal formatting of its string representation, pipe it to the Out-String cmdlet before piping it to Format-Hex.
+At line:1 char:68
++ ... ent -Encoding Byte -ReadCount 16 -Path educationFILL.txt | Format-Hex
++                                                                ~~~~~~~~~~
+    + CategoryInfo          : ParserError: (:) [Write-Error], WriteErrorException
+    + FullyQualifiedErrorId : FormatHexFailureTypeNotSupported,Format-Hex
+
+Format-Hex : Cannot convert input of type System.Object[] to hexadecimal. To view the hexadecimal formatting of its 
+string representation, pipe it to the Out-String cmdlet before piping it to Format-Hex.
+At line:1 char:68
++ ... ent -Encoding Byte -ReadCount 16 -Path educationFILL.txt | Format-Hex
++                                                                ~~~~~~~~~~
+    + CategoryInfo          : ParserError: (:) [Write-Error], WriteErrorException
+    + FullyQualifiedErrorId : FormatHexFailureTypeNotSupported,Format-Hex
+Format-Hex : Cannot convert input of type System.Object[] to hexadecimal. To view the hexadecimal formatting of its string representation, pipe it to the Out-String cmdlet before piping it to Format-Hex.
+At line:1 char:68
++ ... ent -Encoding Byte -ReadCount 16 -Path educationFILL.txt | Format-Hex
++                                                                ~~~~~~~~~~
+    + CategoryInfo          : ParserError: (:) [Write-Error], WriteErrorException
+    + FullyQualifiedErrorId : FormatHexFailureTypeNotSupported,Format-Hex
+
+Format-Hex : Cannot convert input of type System.Object[] to hexadecimal. To view the hexadecimal formatting of its 
+string representation, pipe it to the Out-String cmdlet before piping it to Format-Hex.
+At line:1 char:68
++ ... ent -Encoding Byte -ReadCount 16 -Path educationFILL.txt | Format-Hex
++                                                                ~~~~~~~~~~
+    + CategoryInfo          : ParserError: (:) [Write-Error], WriteErrorException
+    + FullyQualifiedErrorId : FormatHexFailureTypeNotSupported,Format-Hex
+Format-Hex : Cannot convert input of type System.Object[] to hexadecimal. To view the hexadecimal formatting of its string representation, pipe it to the Out-String cmdlet before piping it to Format-Hex.
+At line:1 char:68
++ ... ent -Encoding Byte -ReadCount 16 -Path educationFILL.txt | Format-Hex
++                                                                ~~~~~~~~~~
+    + CategoryInfo          : ParserError: (:) [Write-Error], WriteErrorException
+    + FullyQualifiedErrorId : FormatHexFailureTypeNotSupported,Format-Hex
+
+Format-Hex : Cannot convert input of type System.Object[] to hexadecimal. To view the hexadecimal formatting of its 
+string representation, pipe it to the Out-String cmdlet before piping it to Format-Hex.
+At line:1 char:68
++ ... ent -Encoding Byte -ReadCount 16 -Path educationFILL.txt | Format-Hex
++                                                                ~~~~~~~~~~
+    + CategoryInfo          : ParserError: (:) [Write-Error], WriteErrorException
+    + FullyQualifiedErrorId : FormatHexFailureTypeNotSupported,Format-Hex
+Format-Hex : Cannot convert input of type System.Object[] to hexadecimal. To view the hexadecimal formatting of its string representation, pipe it to the Out-String cmdlet before piping it to Format-Hex.
+At line:1 char:68
++ ... ent -Encoding Byte -ReadCount 16 -Path educationFILL.txt | Format-Hex
++                                                                ~~~~~~~~~~
+    + CategoryInfo          : ParserError: (:) [Write-Error], WriteErrorException
+    + FullyQualifiedErrorId : FormatHexFailureTypeNotSupported,Format-Hex
+
+Format-Hex : Cannot convert input of type System.Object[] to hexadecimal. To view the hexadecimal formatting of its 
+string representation, pipe it to the Out-String cmdlet before piping it to Format-Hex.
+At line:1 char:68
++ ... ent -Encoding Byte -ReadCount 16 -Path educationFILL.txt | Format-Hex
++                                                                ~~~~~~~~~~
+    + CategoryInfo          : ParserError: (:) [Write-Error], WriteErrorException
+    + FullyQualifiedErrorId : FormatHexFailureTypeNotSupported,Format-Hex
+Format-Hex : Cannot convert input of type System.Object[] to hexadecimal. To view the hexadecimal formatting of its string representation, pipe it to the Out-String cmdlet before piping it to Format-Hex.
+At line:1 char:68
++ ... ent -Encoding Byte -ReadCount 16 -Path educationFILL.txt | Format-Hex
++                                                                ~~~~~~~~~~
+    + CategoryInfo          : ParserError: (:) [Write-Error], WriteErrorException
+    + FullyQualifiedErrorId : FormatHexFailureTypeNotSupported,Format-Hex
+
+Format-Hex : Cannot convert input of type System.Object[] to hexadecimal. To view the hexadecimal formatting of its 
+string representation, pipe it to the Out-String cmdlet before piping it to Format-Hex.
+At line:1 char:68
++ ... ent -Encoding Byte -ReadCount 16 -Path educationFILL.txt | Format-Hex
++                                                                ~~~~~~~~~~
+    + CategoryInfo          : ParserError: (:) [Write-Error], WriteErrorException
+    + FullyQualifiedErrorId : FormatHexFailureTypeNotSupported,Format-Hex
+Format-Hex : Cannot convert input of type System.Object[] to hexadecimal. To view the hexadecimal formatting of its string representation, pipe it to the Out-String cmdlet before piping it to Format-Hex.
+At line:1 char:68
++ ... ent -Encoding Byte -ReadCount 16 -Path educationFILL.txt | Format-Hex
++                                                                ~~~~~~~~~~
+    + CategoryInfo          : ParserError: (:) [Write-Error], WriteErrorException
+    + FullyQualifiedErrorId : FormatHexFailureTypeNotSupported,Format-Hex
+
+Format-Hex : Cannot convert input of type System.Object[] to hexadecimal. To view the hexadecimal formatting of its 
+string representation, pipe it to the Out-String cmdlet before piping it to Format-Hex.
+At line:1 char:68
++ ... ent -Encoding Byte -ReadCount 16 -Path educationFILL.txt | Format-Hex
++                                                                ~~~~~~~~~~
+    + CategoryInfo          : ParserError: (:) [Write-Error], WriteErrorException
+    + FullyQualifiedErrorId : FormatHexFailureTypeNotSupported,Format-Hex
+Format-Hex : Cannot convert input of type System.Object[] to hexadecimal. To view the hexadecimal formatting of its string representation, pipe it to the Out-String cmdlet before piping it to Format-Hex.
+At line:1 char:68
++ ... ent -Encoding Byte -ReadCount 16 -Path educationFILL.txt | Format-Hex
++                                                                ~~~~~~~~~~
+    + CategoryInfo          : ParserError: (:) [Write-Error], WriteErrorException
+    + FullyQualifiedErrorId : FormatHexFailureTypeNotSupported,Format-Hex
+
+Format-Hex : Cannot convert input of type System.Object[] to hexadecimal. To view the hexadecimal formatting of its 
+string representation, pipe it to the Out-String cmdlet before piping it to Format-Hex.
+At line:1 char:68
++ ... ent -Encoding Byte -ReadCount 16 -Path educationFILL.txt | Format-Hex
++                                                                ~~~~~~~~~~
+    + CategoryInfo          : ParserError: (:) [Write-Error], WriteErrorException
+    + FullyQualifiedErrorId : FormatHexFailureTypeNotSupported,Format-Hex
+Format-Hex : Cannot convert input of type System.Object[] to hexadecimal. To view the hexadecimal formatting of its string representation, pipe it to the Out-String cmdlet before piping it to Format-Hex.
+At line:1 char:68
++ ... ent -Encoding Byte -ReadCount 16 -Path educationFILL.txt | Format-Hex
++                                                                ~~~~~~~~~~
+    + CategoryInfo          : ParserError: (:) [Write-Error], WriteErrorException
+    + FullyQualifiedErrorId : FormatHexFailureTypeNotSupported,Format-Hex
+
+Format-Hex : Cannot convert input of type System.Object[] to hexadecimal. To view the hexadecimal formatting of its 
+string representation, pipe it to the Out-String cmdlet before piping it to Format-Hex.
+At line:1 char:68
++ ... ent -Encoding Byte -ReadCount 16 -Path educationFILL.txt | Format-Hex
++                                                                ~~~~~~~~~~
+    + CategoryInfo          : ParserError: (:) [Write-Error], WriteErrorException
+    + FullyQualifiedErrorId : FormatHexFailureTypeNotSupported,Format-Hex
+Format-Hex : Cannot convert input of type System.Object[] to hexadecimal. To view the hexadecimal formatting of its string representation, pipe it to the Out-String cmdlet before piping it to Format-Hex.
+At line:1 char:68
++ ... ent -Encoding Byte -ReadCount 16 -Path educationFILL.txt | Format-Hex
++                                                                ~~~~~~~~~~
+    + CategoryInfo          : ParserError: (:) [Write-Error], WriteErrorException
+    + FullyQualifiedErrorId : FormatHexFailureTypeNotSupported,Format-Hex
+
+Format-Hex : Cannot convert input of type System.Object[] to hexadecimal. To view the hexadecimal formatting of its 
+string representation, pipe it to the Out-String cmdlet before piping it to Format-Hex.
+At line:1 char:68
++ ... ent -Encoding Byte -ReadCount 16 -Path educationFILL.txt | Format-Hex
++                                                                ~~~~~~~~~~
+    + CategoryInfo          : ParserError: (:) [Write-Error], WriteErrorException
+    + FullyQualifiedErrorId : FormatHexFailureTypeNotSupported,Format-Hex
+Format-Hex : Cannot convert input of type System.Object[] to hexadecimal. To view the hexadecimal formatting of its string representation, pipe it to the Out-String cmdlet before piping it to Format-Hex.
+At line:1 char:68
++ ... ent -Encoding Byte -ReadCount 16 -Path educationFILL.txt | Format-Hex
++                                                                ~~~~~~~~~~
+    + CategoryInfo          : ParserError: (:) [Write-Error], WriteErrorException
+    + FullyQualifiedErrorId : FormatHexFailureTypeNotSupported,Format-Hex
+
+Format-Hex : Cannot convert input of type System.Object[] to hexadecimal. To view the hexadecimal formatting of its 
+string representation, pipe it to the Out-String cmdlet before piping it to Format-Hex.
+At line:1 char:68
++ ... ent -Encoding Byte -ReadCount 16 -Path educationFILL.txt | Format-Hex
++                                                                ~~~~~~~~~~
+    + CategoryInfo          : ParserError: (:) [Write-Error], WriteErrorException
+    + FullyQualifiedErrorId : FormatHexFailureTypeNotSupported,Format-Hex
+Format-Hex : Cannot convert input of type System.Object[] to hexadecimal. To view the hexadecimal formatting of its string representation, pipe it to the Out-String cmdlet before piping it to Format-Hex.
+At line:1 char:68
++ ... ent -Encoding Byte -ReadCount 16 -Path educationFILL.txt | Format-Hex
++                                                                ~~~~~~~~~~
+    + CategoryInfo          : ParserError: (:) [Write-Error], WriteErrorException
+    + FullyQualifiedErrorId : FormatHexFailureTypeNotSupported,Format-Hex
+
+Format-Hex : Cannot convert input of type System.Object[] to hexadecimal. To view the hexadecimal formatting of its 
+string representation, pipe it to the Out-String cmdlet before piping it to Format-Hex.
+At line:1 char:68
++ ... ent -Encoding Byte -ReadCount 16 -Path educationFILL.txt | Format-Hex
++                                                                ~~~~~~~~~~
+    + CategoryInfo          : ParserError: (:) [Write-Error], WriteErrorException
+    + FullyQualifiedErrorId : FormatHexFailureTypeNotSupported,Format-Hex
+Format-Hex : Cannot convert input of type System.Object[] to hexadecimal. To view the hexadecimal formatting of its string representation, pipe it to the Out-String cmdlet before piping it to Format-Hex.
+At line:1 char:68
++ ... ent -Encoding Byte -ReadCount 16 -Path educationFILL.txt | Format-Hex
++                                                                ~~~~~~~~~~
+    + CategoryInfo          : ParserError: (:) [Write-Error], WriteErrorException
+    + FullyQualifiedErrorId : FormatHexFailureTypeNotSupported,Format-Hex
+
+Format-Hex : Cannot convert input of type System.Object[] to hexadecimal. To view the hexadecimal formatting of its 
+string representation, pipe it to the Out-String cmdlet before piping it to Format-Hex.
+At line:1 char:68
++ ... ent -Encoding Byte -ReadCount 16 -Path educationFILL.txt | Format-Hex
++                                                                ~~~~~~~~~~
+    + CategoryInfo          : ParserError: (:) [Write-Error], WriteErrorException
+    + FullyQualifiedErrorId : FormatHexFailureTypeNotSupported,Format-Hex
+Format-Hex : Cannot convert input of type System.Object[] to hexadecimal. To view the hexadecimal formatting of its string representation, pipe it to the Out-String cmdlet before piping it to Format-Hex.
+At line:1 char:68
++ ... ent -Encoding Byte -ReadCount 16 -Path educationFILL.txt | Format-Hex
++                                                                ~~~~~~~~~~
+    + CategoryInfo          : ParserError: (:) [Write-Error], WriteErrorException
+    + FullyQualifiedErrorId : FormatHexFailureTypeNotSupported,Format-Hex
+
+Format-Hex : Cannot convert input of type System.Object[] to hexadecimal. To view the hexadecimal formatting of its 
+string representation, pipe it to the Out-String cmdlet before piping it to Format-Hex.
+At line:1 char:68
++ ... ent -Encoding Byte -ReadCount 16 -Path educationFILL.txt | Format-Hex
++                                                                ~~~~~~~~~~
+    + CategoryInfo          : ParserError: (:) [Write-Error], WriteErrorException
+    + FullyQualifiedErrorId : FormatHexFailureTypeNotSupported,Format-Hex
+Format-Hex : Cannot convert input of type System.Object[] to hexadecimal. To view the hexadecimal formatting of its string representation, pipe it to the Out-String cmdlet before piping it to Format-Hex.
+At line:1 char:68
++ ... ent -Encoding Byte -ReadCount 16 -Path educationFILL.txt | Format-Hex
++                                                                ~~~~~~~~~~
+    + CategoryInfo          : ParserError: (:) [Write-Error], WriteErrorException
+    + FullyQualifiedErrorId : FormatHexFailureTypeNotSupported,Format-Hex
+
+Format-Hex : Cannot convert input of type System.Object[] to hexadecimal. To view the hexadecimal formatting of its 
+string representation, pipe it to the Out-String cmdlet before piping it to Format-Hex.
+At line:1 char:68
++ ... ent -Encoding Byte -ReadCount 16 -Path educationFILL.txt | Format-Hex
++                                                                ~~~~~~~~~~
+    + CategoryInfo          : ParserError: (:) [Write-Error], WriteErrorException
+    + FullyQualifiedErrorId : FormatHexFailureTypeNotSupported,Format-Hex
+Format-Hex : Cannot convert input of type System.Object[] to hexadecimal. To view the hexadecimal formatting of its string representation, pipe it to the Out-String cmdlet before piping it to Format-Hex.
+At line:1 char:68
++ ... ent -Encoding Byte -ReadCount 16 -Path educationFILL.txt | Format-Hex
++                                                                ~~~~~~~~~~
+    + CategoryInfo          : ParserError: (:) [Write-Error], WriteErrorException
+    + FullyQualifiedErrorId : FormatHexFailureTypeNotSupported,Format-Hex
+
+Format-Hex : Cannot convert input of type System.Object[] to hexadecimal. To view the hexadecimal formatting of its 
+string representation, pipe it to the Out-String cmdlet before piping it to Format-Hex.
+At line:1 char:68
++ ... ent -Encoding Byte -ReadCount 16 -Path educationFILL.txt | Format-Hex
++                                                                ~~~~~~~~~~
+    + CategoryInfo          : ParserError: (:) [Write-Error], WriteErrorException
+    + FullyQualifiedErrorId : FormatHexFailureTypeNotSupported,Format-Hex
+Format-Hex : Cannot convert input of type System.Object[] to hexadecimal. To view the hexadecimal formatting of its string representation, pipe it to the Out-String cmdlet before piping it to Format-Hex.
+At line:1 char:68
++ ... ent -Encoding Byte -ReadCount 16 -Path educationFILL.txt | Format-Hex
++                                                                ~~~~~~~~~~
+    + CategoryInfo          : ParserError: (:) [Write-Error], WriteErrorException
+    + FullyQualifiedErrorId : FormatHexFailureTypeNotSupported,Format-Hex
+
+Format-Hex : Cannot convert input of type System.Object[] to hexadecimal. To view the hexadecimal formatting of its 
+string representation, pipe it to the Out-String cmdlet before piping it to Format-Hex.
+At line:1 char:68
++ ... ent -Encoding Byte -ReadCount 16 -Path educationFILL.txt | Format-Hex
++                                                                ~~~~~~~~~~
+    + CategoryInfo          : ParserError: (:) [Write-Error], WriteErrorException
+    + FullyQualifiedErrorId : FormatHexFailureTypeNotSupported,Format-Hex
+Format-Hex : Cannot convert input of type System.Object[] to hexadecimal. To view the hexadecimal formatting of its string representation, pipe it to the Out-String cmdlet before piping it to Format-Hex.
+At line:1 char:68
++ ... ent -Encoding Byte -ReadCount 16 -Path educationFILL.txt | Format-Hex
++                                                                ~~~~~~~~~~
+    + CategoryInfo          : ParserError: (:) [Write-Error], WriteErrorException
+    + FullyQualifiedErrorId : FormatHexFailureTypeNotSupported,Format-Hex
+
+Format-Hex : Cannot convert input of type System.Object[] to hexadecimal. To view the hexadecimal formatting of its 
+string representation, pipe it to the Out-String cmdlet before piping it to Format-Hex.
+At line:1 char:68
++ ... ent -Encoding Byte -ReadCount 16 -Path educationFILL.txt | Format-Hex
++                                                                ~~~~~~~~~~
+    + CategoryInfo          : ParserError: (:) [Write-Error], WriteErrorException
+    + FullyQualifiedErrorId : FormatHexFailureTypeNotSupported,Format-Hex
+Format-Hex : Cannot convert input of type System.Object[] to hexadecimal. To view the hexadecimal formatting of its string representation, pipe it to the Out-String cmdlet before piping it to Format-Hex.
+At line:1 char:68
++ ... ent -Encoding Byte -ReadCount 16 -Path educationFILL.txt | Format-Hex
++                                                                ~~~~~~~~~~
+    + CategoryInfo          : ParserError: (:) [Write-Error], WriteErrorException
+    + FullyQualifiedErrorId : FormatHexFailureTypeNotSupported,Format-Hex
+
+Format-Hex : Cannot convert input of type System.Object[] to hexadecimal. To view the hexadecimal formatting of its 
+string representation, pipe it to the Out-String cmdlet before piping it to Format-Hex.
+At line:1 char:68
++ ... ent -Encoding Byte -ReadCount 16 -Path educationFILL.txt | Format-Hex
++                                                                ~~~~~~~~~~
+    + CategoryInfo          : ParserError: (:) [Write-Error], WriteErrorException
+    + FullyQualifiedErrorId : FormatHexFailureTypeNotSupported,Format-Hex
+Format-Hex : Cannot convert input of type System.Object[] to hexadecimal. To view the hexadecimal formatting of its string representation, pipe it to the Out-String cmdlet before piping it to Format-Hex.
+At line:1 char:68
++ ... ent -Encoding Byte -ReadCount 16 -Path educationFILL.txt | Format-Hex
++                                                                ~~~~~~~~~~
+    + CategoryInfo          : ParserError: (:) [Write-Error], WriteErrorException
+    + FullyQualifiedErrorId : FormatHexFailureTypeNotSupported,Format-Hex
+
+Format-Hex : Cannot convert input of type System.Object[] to hexadecimal. To view the hexadecimal formatting of its 
+string representation, pipe it to the Out-String cmdlet before piping it to Format-Hex.
+At line:1 char:68
++ ... ent -Encoding Byte -ReadCount 16 -Path educationFILL.txt | Format-Hex
++                                                                ~~~~~~~~~~
+    + CategoryInfo          : ParserError: (:) [Write-Error], WriteErrorException
+    + FullyQualifiedErrorId : FormatHexFailureTypeNotSupported,Format-Hex
+Format-Hex : Cannot convert input of type System.Object[] to hexadecimal. To view the hexadecimal formatting of its string representation, pipe it to the Out-String cmdlet before piping it to Format-Hex.
+At line:1 char:68
++ ... ent -Encoding Byte -ReadCount 16 -Path educationFILL.txt | Format-Hex
++                                                                ~~~~~~~~~~
+    + CategoryInfo          : ParserError: (:) [Write-Error], WriteErrorException
+    + FullyQualifiedErrorId : FormatHexFailureTypeNotSupported,Format-Hex
+
+Format-Hex : Cannot convert input of type System.Object[] to hexadecimal. To view the hexadecimal formatting of its 
+string representation, pipe it to the Out-String cmdlet before piping it to Format-Hex.
+At line:1 char:68
++ ... ent -Encoding Byte -ReadCount 16 -Path educationFILL.txt | Format-Hex
++                                                                ~~~~~~~~~~
+    + CategoryInfo          : ParserError: (:) [Write-Error], WriteErrorException
+    + FullyQualifiedErrorId : FormatHexFailureTypeNotSupported,Format-Hex
+Format-Hex : Cannot convert input of type System.Object[] to hexadecimal. To view the hexadecimal formatting of its string representation, pipe it to the Out-String cmdlet before piping it to Format-Hex.
+At line:1 char:68
++ ... ent -Encoding Byte -ReadCount 16 -Path educationFILL.txt | Format-Hex
++                                                                ~~~~~~~~~~
+    + CategoryInfo          : ParserError: (:) [Write-Error], WriteErrorException
+    + FullyQualifiedErrorId : FormatHexFailureTypeNotSupported,Format-Hex
+
+Format-Hex : Cannot convert input of type System.Object[] to hexadecimal. To view the hexadecimal formatting of its 
+string representation, pipe it to the Out-String cmdlet before piping it to Format-Hex.
+At line:1 char:68
++ ... ent -Encoding Byte -ReadCount 16 -Path educationFILL.txt | Format-Hex
++                                                                ~~~~~~~~~~
+    + CategoryInfo          : ParserError: (:) [Write-Error], WriteErrorException
+    + FullyQualifiedErrorId : FormatHexFailureTypeNotSupported,Format-Hex
+Format-Hex : Cannot convert input of type System.Object[] to hexadecimal. To view the hexadecimal formatting of its string representation, pipe it to the Out-String cmdlet before piping it to Format-Hex.
+At line:1 char:68
++ ... ent -Encoding Byte -ReadCount 16 -Path educationFILL.txt | Format-Hex
++                                                                ~~~~~~~~~~
+    + CategoryInfo          : ParserError: (:) [Write-Error], WriteErrorException
+    + FullyQualifiedErrorId : FormatHexFailureTypeNotSupported,Format-Hex
+
+Format-Hex : Cannot convert input of type System.Object[] to hexadecimal. To view the hexadecimal formatting of its 
+string representation, pipe it to the Out-String cmdlet before piping it to Format-Hex.
+At line:1 char:68
++ ... ent -Encoding Byte -ReadCount 16 -Path educationFILL.txt | Format-Hex
++                                                                ~~~~~~~~~~
+    + CategoryInfo          : ParserError: (:) [Write-Error], WriteErrorException
+    + FullyQualifiedErrorId : FormatHexFailureTypeNotSupported,Format-Hex
+Format-Hex : Cannot convert input of type System.Object[] to hexadecimal. To view the hexadecimal formatting of its string representation, pipe it to the Out-String cmdlet before piping it to Format-Hex.
+At line:1 char:68
++ ... ent -Encoding Byte -ReadCount 16 -Path educationFILL.txt | Format-Hex
++                                                                ~~~~~~~~~~
+    + CategoryInfo          : ParserError: (:) [Write-Error], WriteErrorException
+    + FullyQualifiedErrorId : FormatHexFailureTypeNotSupported,Format-Hex
+
+Format-Hex : Cannot convert input of type System.Object[] to hexadecimal. To view the hexadecimal formatting of its 
+string representation, pipe it to the Out-String cmdlet before piping it to Format-Hex.
+At line:1 char:68
++ ... ent -Encoding Byte -ReadCount 16 -Path educationFILL.txt | Format-Hex
++                                                                ~~~~~~~~~~
+    + CategoryInfo          : ParserError: (:) [Write-Error], WriteErrorException
+    + FullyQualifiedErrorId : FormatHexFailureTypeNotSupported,Format-Hex
+Format-Hex : Cannot convert input of type System.Object[] to hexadecimal. To view the hexadecimal formatting of its string representation, pipe it to the Out-String cmdlet before piping it to Format-Hex.
+At line:1 char:68
++ ... ent -Encoding Byte -ReadCount 16 -Path educationFILL.txt | Format-Hex
++                                                                ~~~~~~~~~~
+    + CategoryInfo          : ParserError: (:) [Write-Error], WriteErrorException
+    + FullyQualifiedErrorId : FormatHexFailureTypeNotSupported,Format-Hex
+
+Format-Hex : Cannot convert input of type System.Object[] to hexadecimal. To view the hexadecimal formatting of its 
+string representation, pipe it to the Out-String cmdlet before piping it to Format-Hex.
+At line:1 char:68
++ ... ent -Encoding Byte -ReadCount 16 -Path educationFILL.txt | Format-Hex
++                                                                ~~~~~~~~~~
+    + CategoryInfo          : ParserError: (:) [Write-Error], WriteErrorException
+    + FullyQualifiedErrorId : FormatHexFailureTypeNotSupported,Format-Hex
+Format-Hex : Cannot convert input of type System.Object[] to hexadecimal. To view the hexadecimal formatting of its string representation, pipe it to the Out-String cmdlet before piping it to Format-Hex.
+At line:1 char:68
++ ... ent -Encoding Byte -ReadCount 16 -Path educationFILL.txt | Format-Hex
++                                                                ~~~~~~~~~~
+    + CategoryInfo          : ParserError: (:) [Write-Error], WriteErrorException
+    + FullyQualifiedErrorId : FormatHexFailureTypeNotSupported,Format-Hex
+
+Format-Hex : Cannot convert input of type System.Object[] to hexadecimal. To view the hexadecimal formatting of its 
+string representation, pipe it to the Out-String cmdlet before piping it to Format-Hex.
+At line:1 char:68
++ ... ent -Encoding Byte -ReadCount 16 -Path educationFILL.txt | Format-Hex
++                                                                ~~~~~~~~~~
+    + CategoryInfo          : ParserError: (:) [Write-Error], WriteErrorException
+    + FullyQualifiedErrorId : FormatHexFailureTypeNotSupported,Format-Hex
+Format-Hex : Cannot convert input of type System.Object[] to hexadecimal. To view the hexadecimal formatting of its string representation, pipe it to the Out-String cmdlet before piping it to Format-Hex.
+At line:1 char:68
++ ... ent -Encoding Byte -ReadCount 16 -Path educationFILL.txt | Format-Hex
++                                                                ~~~~~~~~~~
+    + CategoryInfo          : ParserError: (:) [Write-Error], WriteErrorException
+    + FullyQualifiedErrorId : FormatHexFailureTypeNotSupported,Format-Hex
+
+Format-Hex : Cannot convert input of type System.Object[] to hexadecimal. To view the hexadecimal formatting of its 
+string representation, pipe it to the Out-String cmdlet before piping it to Format-Hex.
+At line:1 char:68
++ ... ent -Encoding Byte -ReadCount 16 -Path educationFILL.txt | Format-Hex
++                                                                ~~~~~~~~~~
+    + CategoryInfo          : ParserError: (:) [Write-Error], WriteErrorException
+    + FullyQualifiedErrorId : FormatHexFailureTypeNotSupported,Format-Hex
+Format-Hex : Cannot convert input of type System.Object[] to hexadecimal. To view the hexadecimal formatting of its string representation, pipe it to the Out-String cmdlet before piping it to Format-Hex.
+At line:1 char:68
++ ... ent -Encoding Byte -ReadCount 16 -Path educationFILL.txt | Format-Hex
++                                                                ~~~~~~~~~~
+    + CategoryInfo          : ParserError: (:) [Write-Error], WriteErrorException
+    + FullyQualifiedErrorId : FormatHexFailureTypeNotSupported,Format-Hex
+
+Format-Hex : Cannot convert input of type System.Object[] to hexadecimal. To view the hexadecimal formatting of its 
+string representation, pipe it to the Out-String cmdlet before piping it to Format-Hex.
+At line:1 char:68
++ ... ent -Encoding Byte -ReadCount 16 -Path educationFILL.txt | Format-Hex
++                                                                ~~~~~~~~~~
+    + CategoryInfo          : ParserError: (:) [Write-Error], WriteErrorException
+    + FullyQualifiedErrorId : FormatHexFailureTypeNotSupported,Format-Hex
+Format-Hex : Cannot convert input of type System.Object[] to hexadecimal. To view the hexadecimal formatting of its string representation, pipe it to the Out-String cmdlet before piping it to Format-Hex.
+At line:1 char:68
++ ... ent -Encoding Byte -ReadCount 16 -Path educationFILL.txt | Format-Hex
++                                                                ~~~~~~~~~~
+    + CategoryInfo          : ParserError: (:) [Write-Error], WriteErrorException
+    + FullyQualifiedErrorId : FormatHexFailureTypeNotSupported,Format-Hex
+
+Format-Hex : Cannot convert input of type System.Object[] to hexadecimal. To view the hexadecimal formatting of its 
+string representation, pipe it to the Out-String cmdlet before piping it to Format-Hex.
+At line:1 char:68
++ ... ent -Encoding Byte -ReadCount 16 -Path educationFILL.txt | Format-Hex
++                                                                ~~~~~~~~~~
+    + CategoryInfo          : ParserError: (:) [Write-Error], WriteErrorException
+    + FullyQualifiedErrorId : FormatHexFailureTypeNotSupported,Format-Hex
+Format-Hex : Cannot convert input of type System.Object[] to hexadecimal. To view the hexadecimal formatting of its string representation, pipe it to the Out-String cmdlet before piping it to Format-Hex.
+At line:1 char:68
++ ... ent -Encoding Byte -ReadCount 16 -Path educationFILL.txt | Format-Hex
++                                                                ~~~~~~~~~~
+    + CategoryInfo          : ParserError: (:) [Write-Error], WriteErrorException
+    + FullyQualifiedErrorId : FormatHexFailureTypeNotSupported,Format-Hex
+
+Format-Hex : Cannot convert input of type System.Object[] to hexadecimal. To view the hexadecimal formatting of its 
+string representation, pipe it to the Out-String cmdlet before piping it to Format-Hex.
+At line:1 char:68
++ ... ent -Encoding Byte -ReadCount 16 -Path educationFILL.txt | Format-Hex
++                                                                ~~~~~~~~~~
+    + CategoryInfo          : ParserError: (:) [Write-Error], WriteErrorException
+    + FullyQualifiedErrorId : FormatHexFailureTypeNotSupported,Format-Hex
+Format-Hex : Cannot convert input of type System.Object[] to hexadecimal. To view the hexadecimal formatting of its string representation, pipe it to the Out-String cmdlet before piping it to Format-Hex.
+At line:1 char:68
++ ... ent -Encoding Byte -ReadCount 16 -Path educationFILL.txt | Format-Hex
++                                                                ~~~~~~~~~~
+    + CategoryInfo          : ParserError: (:) [Write-Error], WriteErrorException
+    + FullyQualifiedErrorId : FormatHexFailureTypeNotSupported,Format-Hex
+
+Format-Hex : Cannot convert input of type System.Object[] to hexadecimal. To view the hexadecimal formatting of its 
+string representation, pipe it to the Out-String cmdlet before piping it to Format-Hex.
+At line:1 char:68
++ ... ent -Encoding Byte -ReadCount 16 -Path educationFILL.txt | Format-Hex
++                                                                ~~~~~~~~~~
+    + CategoryInfo          : ParserError: (:) [Write-Error], WriteErrorException
+    + FullyQualifiedErrorId : FormatHexFailureTypeNotSupported,Format-Hex
+Format-Hex : Cannot convert input of type System.Object[] to hexadecimal. To view the hexadecimal formatting of its string representation, pipe it to the Out-String cmdlet before piping it to Format-Hex.
+At line:1 char:68
++ ... ent -Encoding Byte -ReadCount 16 -Path educationFILL.txt | Format-Hex
++                                                                ~~~~~~~~~~
+    + CategoryInfo          : ParserError: (:) [Write-Error], WriteErrorException
+    + FullyQualifiedErrorId : FormatHexFailureTypeNotSupported,Format-Hex
+
+Format-Hex : Cannot convert input of type System.Object[] to hexadecimal. To view the hexadecimal formatting of its 
+string representation, pipe it to the Out-String cmdlet before piping it to Format-Hex.
+At line:1 char:68
++ ... ent -Encoding Byte -ReadCount 16 -Path educationFILL.txt | Format-Hex
++                                                                ~~~~~~~~~~
+    + CategoryInfo          : ParserError: (:) [Write-Error], WriteErrorException
+    + FullyQualifiedErrorId : FormatHexFailureTypeNotSupported,Format-Hex
+Format-Hex : Cannot convert input of type System.Object[] to hexadecimal. To view the hexadecimal formatting of its string representation, pipe it to the Out-String cmdlet before piping it to Format-Hex.
+At line:1 char:68
++ ... ent -Encoding Byte -ReadCount 16 -Path educationFILL.txt | Format-Hex
++                                                                ~~~~~~~~~~
+    + CategoryInfo          : ParserError: (:) [Write-Error], WriteErrorException
+    + FullyQualifiedErrorId : FormatHexFailureTypeNotSupported,Format-Hex
+
+PS C:\Users\Star Cloud\stc510>
+(base) #nope
+PS C:\Users\Star Cloud\stc510>
+(base) ls
+
+
+    Directory: C:\Users\Star Cloud\stc510
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----         1/29/2024   5:59 AM           3238 .gitignore
+-a----         1/29/2024   7:09 AM            712 educationFILL.txt
+-a----         1/29/2024   1:44 AM             24 hello.py
+-a----         1/29/2024   1:31 AM           7169 LICENSE
+-a----         1/29/2024   1:31 AM            108 README.md
+-a----         1/29/2024   7:18 AM         335223 scriptlogBashandGitBasic.txt
+
+
+PS C:\Users\Star Cloud\stc510>
+(base) cat educationFILL.txt
+JOACHIM WUEBBER - BASH AND GIT BASICS
+
+e d u c a t i o n . t x t 
+ 
+ e d u c a t i o n 0 1 2 9 1 0 . t x t 
+ 
+ e d u c a t i o n 1 . t x t 
+ 
+ e d u c a t i o n 1 . t x t 
+ 
+ e d u c a t i o n . g r o u p . . t x t 
+ 
+ e d u c a t i o n _ t e c h . t x t 
+ 
+ e d u c a t i o n . g r o u p . . t x t 
+ 
+ e d u c a t i o n . g r o u p . . t x t 
+ 
+ e d u c a t i o n . g r o . t x t 
+ 
+ e d u c a t i o n _ t e c h . t x t 
+ 
+ e d u c a t i o n 3 . t x t 
+ 
+ e d u c a t i o n 3 . t x t 
+ 
+ e d u c a t i o n _ t e c h . t x t 
+ 
+ e d u c a t i o n . g r o u p . . t x t 
+ 
+ e d u c a t i o n . t x t 
+ 
+ e d u c a t i o n r e a l t y 2 0 0 8 y e b n y m c . t x t 
+ 
+ e d u c a t i o n . g r o u p . . t x t 
+ 
+ 
+PS C:\Users\Star Cloud\stc510>
+(base) cat README.md
+# stc510
+2.6 A space for data wrangling course
+
+Using this to show how to use git (among other things).
+PS C:\Users\Star Cloud\stc510>
+(base) vim educationFILL.txt
+
+(base) TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+PS C:\Users\Star Cloud\stc510>
+(base) cat educationFILL.txt
+JOACHIM WUEBBER - BASH AND GIT BASICS
+
+e d u c a t i o n . t x t 
+ 
+ e d u c a t i o n 0 1 2 9 1 0 . t x t 
+ 
+ e d u c a t i o n 1 . t x t 
+ 
+ e d u c a t i o n 1 . t x t 
+ 
+ e d u c a t i o n . g r o u p . . t x t 
+ 
+ e d u c a t i o n _ t e c h . t x t 
+ 
+ e d u c a t i o n . g r o u p . . t x t 
+ 
+ e d u c a t i o n . g r o u p . . t x t 
+ 
+ e d u c a t i o n . g r o . t x t 
+ 
+ e d u c a t i o n _ t e c h . t x t 
+ 
+ e d u c a t i o n 3 . t x t 
+ 
+ e d u c a t i o n 3 . t x t 
+ 
+ e d u c a t i o n _ t e c h . t x t 
+ 
+ e d u c a t i o n . g r o u p . . t x t 
+ 
+ e d u c a t i o n . t x t 
+ 
+ e d u c a t i o n r e a l t y 2 0 0 8 y e b n y m c . t x t 
+ 
+ e d u c a t i o n . g r o u p . . t x t 
+ 
+ 
+PS C:\Users\Star Cloud\stc510>
+(base) #restarting
+PS C:\Users\Star Cloud\stc510>
+(base) ls
+
+
+    Directory: C:\Users\Star Cloud\stc510
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----         1/29/2024   5:59 AM           3238 .gitignore
+-a----         1/29/2024   7:09 AM            712 educationFILL.txt
+-a----         1/29/2024   1:44 AM             24 hello.py
+-a----         1/29/2024   1:31 AM           7169 LICENSE
+-a----         1/29/2024   1:31 AM            108 README.md
+-a----         1/29/2024   7:18 AM         335223 scriptlogBashandGitBasic.txt
+
+
+PS C:\Users\Star Cloud\stc510>
+(base) rm educationFILL.txt
+PS C:\Users\Star Cloud\stc510>
+(base) ls
+
+
+    Directory: C:\Users\Star Cloud\stc510
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----         1/29/2024   5:59 AM           3238 .gitignore
+-a----         1/29/2024   1:44 AM             24 hello.py
+-a----         1/29/2024   1:31 AM           7169 LICENSE
+-a----         1/29/2024   1:31 AM            108 README.md
+-a----         1/29/2024   7:18 AM         335223 scriptlogBashandGitBasic.txt
+
+
+PS C:\Users\Star Cloud\stc510>
+(base) curl -s--L https://www.dropbox.com/s/14jagxjbzhyxg8g/log.tar.gz?dl=0 -o log.tar.gz
+>> TerminatingError(Invoke-WebRequest): "A parameter cannot be found that matches parameter name 's--L'."
+Invoke-WebRequest : A parameter cannot be found that matches parameter name 's--L'.
+At line:1 char:6
++ curl -s--L https://www.dropbox.com/s/14jagxjbzhyxg8g/log.tar.gz?dl=0  ...
++      ~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Invoke-WebRequest], ParameterBindingException
+    + FullyQualifiedErrorId : NamedParameterNotFound,Microsoft.PowerShell.Commands.InvokeWebRequestCommand
+Invoke-WebRequest : A parameter cannot be found that matches parameter name 's--L'.
+At line:1 char:6
++ curl -s--L https://www.dropbox.com/s/14jagxjbzhyxg8g/log.tar.gz?dl=0  ...
++      ~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Invoke-WebRequest], ParameterBindingException
+    + FullyQualifiedErrorId : NamedParameterNotFound,Microsoft.PowerShell.Commands.InvokeWebRequestCommand
+
+PS C:\Users\Star Cloud\stc510>
+(base) Invoke-WebRequest -Uri 'https://www.dropbox.com/s/14jagxjbzhyxg8g/log.tar.gz?dl=0' -OutFile 'log.tar.gz'
+PS C:\Users\Star Cloud\stc510>
+(base) ls
+
+
+    Directory: C:\Users\Star Cloud\stc510
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----         1/29/2024   5:59 AM           3238 .gitignore
+-a----         1/29/2024   1:44 AM             24 hello.py
+-a----         1/29/2024   1:31 AM           7169 LICENSE
+-a----         1/29/2024   7:32 AM         143064 log.tar.gz
+-a----         1/29/2024   1:31 AM            108 README.md
+-a----         1/29/2024   7:18 AM         335223 scriptlogBashandGitBasic.txt
+
+
+PS C:\Users\Star Cloud\stc510>
+(base) tar -zxvf log.tar.gz
+
+PS C:\Users\Star Cloud\stc510>
+(base) file log.tar.gz
+
+PS C:\Users\Star Cloud\stc510>
+(base) rm log.tar.gz
+PS C:\Users\Star Cloud\stc510>
+(base) ls
+
+
+    Directory: C:\Users\Star Cloud\stc510
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----         1/29/2024   5:59 AM           3238 .gitignore
+-a----         1/29/2024   1:44 AM             24 hello.py
+-a----         1/29/2024   1:31 AM           7169 LICENSE
+-a----         1/29/2024   1:31 AM            108 README.md
+-a----         1/29/2024   7:18 AM         335223 scriptlogBashandGitBasic.txt
+
+
+PS C:\Users\Star Cloud\stc510>
+(base) Invoke-WebRequest -Uri 'https://www.dropbox.com/s/14jagxjbzhyxg8g/log.tar.gz?dl=1' -OutFile 'log.tar.gz'
+PS C:\Users\Star Cloud\stc510>
+(base) ;s
+s : The term 's' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the 
+spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:2
++ ;s
++  ~
+    + CategoryInfo          : ObjectNotFound: (s:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+s : The term 's' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:2
++ ;s
++  ~
+    + CategoryInfo          : ObjectNotFound: (s:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\Star Cloud\stc510>
+(base) ls
+
+
+    Directory: C:\Users\Star Cloud\stc510
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----         1/29/2024   5:59 AM           3238 .gitignore
+-a----         1/29/2024   1:44 AM             24 hello.py
+-a----         1/29/2024   1:31 AM           7169 LICENSE
+-a----         1/29/2024   7:39 AM      384564585 log.tar.gz
+-a----         1/29/2024   1:31 AM            108 README.md
+-a----         1/29/2024   7:18 AM         335223 scriptlogBashandGitBasic.txt
+
+
+PS C:\Users\Star Cloud\stc510>
+(base) tar -zxvf log.tar.gz
+
+(base) TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+PS C:\Users\Star Cloud\stc510>
+(base) #thank goodness
+PS C:\Users\Star Cloud\stc510>
+(base) ls
+
+
+    Directory: C:\Users\Star Cloud\stc510
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----         1/29/2024   5:59 AM           3238 .gitignore
+-a----         1/29/2024   1:44 AM             24 hello.py
+-a----         1/29/2024   1:31 AM           7169 LICENSE
+-a----         1/29/2024   7:40 AM     1782414848 log.csv
+-a----         1/29/2024   7:39 AM      384564585 log.tar.gz
+-a----         1/29/2024   1:31 AM            108 README.md
+-a----         1/29/2024   7:18 AM         335223 scriptlogBashandGitBasic.txt
+
+
+PS C:\Users\Star Cloud\stc510>
+(base) grep -o 'education[^\s]*\.txt' log.csv
+
+PS C:\Users\Star Cloud\stc510>
+(base) grep -o 'education[^\s]*\.txt' log.csv > educationFILL.txt
+>> ParameterBinding(Out-File): name="InputObject"; value="education.txt"
+>> ParameterBinding(Out-File): name="InputObject"; value="education012910.txt"
+>> ParameterBinding(Out-File): name="InputObject"; value="education1.txt"
+>> ParameterBinding(Out-File): name="InputObject"; value="education1.txt"
+>> ParameterBinding(Out-File): name="InputObject"; value="education.group..txt"
+>> ParameterBinding(Out-File): name="InputObject"; value="education_tech.txt"
+>> ParameterBinding(Out-File): name="InputObject"; value="education.group..txt"
+>> ParameterBinding(Out-File): name="InputObject"; value="education.group..txt"
+>> ParameterBinding(Out-File): name="InputObject"; value="education.gro.txt"
+>> ParameterBinding(Out-File): name="InputObject"; value="education_tech.txt"
+>> ParameterBinding(Out-File): name="InputObject"; value="education3.txt"
+>> ParameterBinding(Out-File): name="InputObject"; value="education3.txt"
+PS C:\Users\Star Cloud\stc510>
+(base) cat educationFILL.txt
+education.txt
+education012910.txt
+education1.txt
+education1.txt
+education.group..txt
+education_tech.txt
+education.group..txt
+education.group..txt
+education.gro.txt
+education_tech.txt
+education3.txt
+education3.txt
+PS C:\Users\Star Cloud\stc510>
+(base) nano educationFILL.txt
+
+PS C:\Users\Star Cloud\stc510>
+(base) vim educationFILL.txt
+
+PS C:\Users\Star Cloud\stc510>
+(base) grep educationFILL.txt
+
+(base) TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+PS C:\Users\Star Cloud\stc510>
+(base) cat educatoinFILL.txt
+cat : Cannot find path 'C:\Users\Star Cloud\stc510\educatoinFILL.txt' because it does not exist.
+At line:1 char:1
++ cat educatoinFILL.txt
++ ~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\Star C...ucatoinFILL.txt:String) [Get-Content], 
+ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+cat : Cannot find path 'C:\Users\Star Cloud\stc510\educatoinFILL.txt' because it does not exist.
+At line:1 char:1
++ cat educatoinFILL.txt
++ ~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\Star C...ucatoinFILL.txt:String) [Get-Content], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+
+PS C:\Users\Star Cloud\stc510>
+(base) cat educationFILL.txt
+education.txt
+education012910.txt
+education1.txt
+education1.txt
+education.group..txt
+education_tech.txt
+education.group..txt
+education.group..txt
+education.gro.txt
+education_tech.txt
+education3.txt
+education3.txt
+PS C:\Users\Star Cloud\stc510>
+(base) #im gonna try a different way of search for file save
+PS C:\Users\Star Cloud\stc510>
+(base) grep -o 'education[^[:space:]]*\.txt' log.csv | grep -o '[^ ]*'
+education3.txt
+PS C:\Users\Star Cloud\stc510>
+(base) #this resulted in 3 more results
+PS C:\Users\Star Cloud\stc510>
+(base) grep -o 'education[^[:space:]]*\.txt' log.csv | grep -o '[^ ]*' > New_EducationFILL.txt
+(base) ParameterBinding(Out-File): name="InputObject"; value="education0gscototal.txt"
+>> ParameterBinding(Out-File): name="InputObject"; value="education.txt"
+>> ParameterBinding(Out-File): name="InputObject"; value="education012910.txt"
+>> ParameterBinding(Out-File): name="InputObject"; value="education.realty.trust..txt"
+>> ParameterBinding(Out-File): name="InputObject"; value="education1.txt"
+>> ParameterBinding(Out-File): name="InputObject"; value="education1.txt"
+>> ParameterBinding(Out-File): name="InputObject"; value="education.group..txt"
+>> ParameterBinding(Out-File): name="InputObject"; value="education0gscototal.txt"
+>> ParameterBinding(Out-File): name="InputObject"; value="education_tech.txt"
+>> ParameterBinding(Out-File): name="InputObject"; value="education.group..txt"
+>> ParameterBinding(Out-File): name="InputObject"; value="education.group..txt"
+>> ParameterBinding(Out-File): name="InputObject"; value="education0gscototal.txt"
+>> ParameterBinding(Out-File): name="InputObject"; value="education.gro.txt"
+>> ParameterBinding(Out-File): name="InputObject"; value="education_tech.txt"
+>> ParameterBinding(Out-File): name="InputObject"; value="education3.txt"
+>> ParameterBinding(Out-File): name="InputObject"; value="education3.txt"
+PS C:\Users\Star Cloud\stc510>
+(base) ls
+
+
+    Directory: C:\Users\Star Cloud\stc510
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----         1/29/2024   5:59 AM           3238 .gitignore
+-a----         1/29/2024   7:43 AM            452 educationFILL.txt
+-a----         1/29/2024   1:44 AM             24 hello.py
+-a----         1/29/2024   1:31 AM           7169 LICENSE
+-a----         1/29/2024   7:40 AM     1782414848 log.csv
+-a----         1/29/2024   7:39 AM      384564585 log.tar.gz
+-a----         1/29/2024   7:48 AM            660 New_EducationFILL.txt
+-a----         1/29/2024   1:31 AM            108 README.md
+-a----         1/29/2024   7:18 AM         335223 scriptlogBashandGitBasic.txt
+
+
+PS C:\Users\Star Cloud\stc510>
+(base) nano New_EducationFILL.txt
+
+PS C:\Users\Star Cloud\stc510>
+(base) vim New_EducationFILL.txt
+
+PS C:\Users\Star Cloud\stc510>
+(base) #I have been receiving the error of @ symbols with 
+PS C:\Users\Star Cloud\stc510>
+(base) vim New_EducationFILL.txt
+
+PS C:\Users\Star Cloud\stc510>
+(base) cat New_EducationFILL.txt
+Joachim Wuebber - Bash and Git Basics
+
+education0gscototal.txt
+education.txt
+education012910.txt
+education.realty.trust..txt
+education1.txt
+education1.txt
+education.group..txt
+education0gscototal.txt
+education_tech.txt
+education.group..txt
+education.group..txt
+education0gscototal.txt
+education.gro.txt
+education_tech.txt
+education3.txt
+education3.txt
+PS C:\Users\Star Cloud\stc510>
+(base) git status
+
+PS C:\Users\Star Cloud\stc510>
+(base) # I will be rm the oversized files
+PS C:\Users\Star Cloud\stc510>
+(base) ls
+
+
+    Directory: C:\Users\Star Cloud\stc510
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----         1/29/2024   5:59 AM           3238 .gitignore
+-a----         1/29/2024   7:43 AM            452 educationFILL.txt
+-a----         1/29/2024   1:44 AM             24 hello.py
+-a----         1/29/2024   1:31 AM           7169 LICENSE
+-a----         1/29/2024   7:40 AM     1782414848 log.csv
+-a----         1/29/2024   7:39 AM      384564585 log.tar.gz
+-a----         1/29/2024   7:55 AM            742 New_EducationFILL.txt
+-a----         1/29/2024   1:31 AM            108 README.md
+-a----         1/29/2024   7:18 AM         335223 scriptlogBashandGitBasic.txt
+
+
+PS C:\Users\Star Cloud\stc510>
+(base) rm log.csv
+PS C:\Users\Star Cloud\stc510>
+(base) rm log.tar.gz
+PS C:\Users\Star Cloud\stc510>
+(base) ls
+
+
+    Directory: C:\Users\Star Cloud\stc510
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----         1/29/2024   5:59 AM           3238 .gitignore
+-a----         1/29/2024   7:43 AM            452 educationFILL.txt
+-a----         1/29/2024   1:44 AM             24 hello.py
+-a----         1/29/2024   1:31 AM           7169 LICENSE
+-a----         1/29/2024   7:55 AM            742 New_EducationFILL.txt
+-a----         1/29/2024   1:31 AM            108 README.md
+-a----         1/29/2024   7:18 AM         335223 scriptlogBashandGitBasic.txt
+
+
+PS C:\Users\Star Cloud\stc510>
+(base) git status
+
+PS C:\Users\Star Cloud\stc510>
+(base) git add New_EducationFILL.txt
+
+PS C:\Users\Star Cloud\stc510>
+(base) git status
+
+PS C:\Users\Star Cloud\stc510>
+(base) git add educationFILL.txt
+
+PS C:\Users\Star Cloud\stc510>
+(base) git add scriptlogBashandGitBasic.txt
+
+PS C:\Users\Star Cloud\stc510>
+(base) git status
+
+PS C:\Users\Star Cloud\stc510>
+(base) git commit -m "Final commit"
+
+PS C:\Users\Star Cloud\stc510>
+(base) git push
+
+PS C:\Users\Star Cloud\stc510>
+(base) # New_EducationFILL.txt is the final version of project search
+PS C:\Users\Star Cloud\stc510>
+(base) # EducationFILL.txt is previous version with less results
+PS C:\Users\Star Cloud\stc510>
+(base) # Name and Title are at top of New_EducationFILL.txt
+PS C:\Users\Star Cloud\stc510>
+(base) # FIN
+PS C:\Users\Star Cloud\stc510>
+(base) transcript-stop
+transcript-stop : The term 'transcript-stop' is not recognized as the name of a cmdlet, function, script file, or 
+operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try 
+again.
+At line:1 char:1
++ transcript-stop
++ ~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (transcript-stop:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+transcript-stop : The term 'transcript-stop' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ transcript-stop
++ ~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (transcript-stop:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\Star Cloud\stc510>
+(base) #oops
+PS C:\Users\Star Cloud\stc510>
+(base) Stop-Transcript
+**********************
+Windows PowerShell transcript end
+End time: 20240129080112
+**********************
