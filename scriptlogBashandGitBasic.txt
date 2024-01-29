@@ -1,0 +1,20 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20240129060454
+Username: DESKTOP-95MGKNU\Star Cloud
+RunAs User: DESKTOP-95MGKNU\Star Cloud
+Configuration Name: 
+Machine: DESKTOP-95MGKNU (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy ByPass -NoExit -Command & 'C:\Users\Star Cloud\anaconda3\shell\condabin\conda-hook.ps1' ; conda activate 'C:\Users\Star Cloud\anaconda3' 
+Process ID: 15244
+PSVersion: 5.1.19041.3930
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.3930
+BuildVersion: 10.0.19041.3930
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is scriptlogBashandGitBasic.txt
+PS C:\Users\Star Cloud\stc510>
